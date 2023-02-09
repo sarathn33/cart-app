@@ -59,7 +59,7 @@ return(
       <p className="rating-data">{ratings}</p>
       <div className="btn-area">
         
-          {buttonName == "Add to cart" ? showBtn ? <Button  className="btn" onClick={()=>handleCartAdd(idx, setItems, item)} variant="primary">{buttonName}</Button>: 
+          {buttonName = "Add to cart" ? showBtn ? <Button  className="btn" onClick={()=>handleCartAdd(idx, setItems, item)} variant="primary">{buttonName}</Button>: 
           <Button className="btn" onClick={()=>handleCartRemove(idx, setItems, item , setCard)} variant="secondary">{changedName}</Button>  :<Button className="btn" >{buttonName}</Button>
         }
         
