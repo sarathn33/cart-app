@@ -5,7 +5,7 @@
 .btn-area{
     gap : 1rem;
     align-items: center;
-    justify-content: center;
+   
 }
 .main-card{
     display: grid;
@@ -13,13 +13,11 @@
 }
 .Card{
 
-    margin: 20px;
+    margin: 2px;
     gap : 0.5rem;
 }
 .header{
     align-items: center;
-    background-color: black;
-    color: white;
     height:10rem
     
 }

@@ -38,7 +38,6 @@ export function Components(){
     )}
 
 function CardDetails ({setCard, setItems, idx , item,title,ratings,price,specialPrice,buttonName,changedName}) {
-    let count = 0
      const [showBtn, setShowBtn] = useState(true);
      const handleCartAdd = (idx, setItems, item) => {
          setShowBtn(!showBtn)
